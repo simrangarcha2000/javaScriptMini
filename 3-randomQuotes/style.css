@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(160, 138, 138);
+    transition: 1s;
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+h1{
+    position: fixed;
+    margin-bottom: 5em;
+}
+
+p{
+    font-size: 2.5em;
+    color: rgb(160, 138, 138);
+}
+
+#writer{
+    font-size: 1.5em;
+    display: flex;
+    justify-content:right;
+    padding-right: 1em;
+    color: blanchedalmond;
+}
+
+.quoteBox{
+    background-color: rgb(12, 11, 11);
+    height: auto;
+    width: 50vw;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+button{
+    display: flex;
+    padding: 1rem;
+    font-size: 1rem;
+    justify-items: right;
+    
+}
