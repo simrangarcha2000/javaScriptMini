@@ -1,0 +1,17 @@
+body{
+    background-color: red;
+    transition: 1s;
+}
+
+.container{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+}
+
+button{
+    padding: 1rem;
+    font-size: 1rem;
+}
+
